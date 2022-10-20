@@ -1,0 +1,169 @@
+---
+import hero from "../images/hero.svg";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Self Hosted CloudFlare Worker in Docker - OpWork">
+  <nav class="sticky bg-midnight text-white font-thin text-xl">
+    <div class="container max-w-7xl mx-auto flex items-center h-12">
+      <a href="https://opwork.dev" target="_self">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 222.54 194.88"
+          width="40"
+          height="40"
+          class="mr-4"
+          ><defs
+            ><style>
+              .cls-1 {
+                isolation: isolate;
+              }
+              .cls-2 {
+                fill: url(#linear-gradient);
+              }
+              .cls-3,
+              .cls-5 {
+                mix-blend-mode: multiply;
+              }
+              .cls-3 {
+                fill: url(#linear-gradient-2);
+              }
+              .cls-4,
+              .cls-6,
+              .cls-7,
+              .cls-8 {
+                mix-blend-mode: screen;
+              }
+              .cls-4 {
+                fill: url(#linear-gradient-3);
+              }
+              .cls-5 {
+                fill: url(#linear-gradient-4);
+              }
+              .cls-6 {
+                fill: url(#linear-gradient-5);
+              }
+              .cls-7 {
+                fill: url(#radial-gradient);
+              }
+              .cls-8 {
+                fill: url(#radial-gradient-2);
+              }
+            </style><linearGradient
+              id="linear-gradient"
+              x1="111.27"
+              y1="12.73"
+              x2="111.27"
+              y2="198.28"
+              gradientUnits="userSpaceOnUse"
+              ><stop offset="0" stop-color="#ff5f00"></stop><stop
+                offset="1"
+                stop-color="#ffab00"></stop>
+            </linearGradient><linearGradient
+              id="linear-gradient-2"
+              x1="249.24"
+              y1="151.23"
+              x2="-7.51"
+              y2="76.04"
+              gradientUnits="userSpaceOnUse"
+              ><stop offset="0" stop-color="#bd5500"></stop><stop
+                offset="1"
+                stop-color="#fff"></stop>
+            </linearGradient><linearGradient
+              id="linear-gradient-3"
+              x1="-95.81"
+              y1="51.56"
+              x2="257.16"
+              y2="115.55"
+              gradientUnits="userSpaceOnUse"
+              ><stop offset="0" stop-color="#fff"></stop><stop offset="1"
+              ></stop>
+            </linearGradient><linearGradient
+              id="linear-gradient-4"
+              x1="185.23"
+              y1="120.46"
+              x2="-63.41"
+              y2="164.02"
+              xlink:href="#linear-gradient-2"></linearGradient><linearGradient
+              id="linear-gradient-5"
+              x1="335.3"
+              y1="108.72"
+              x2="11.78"
+              y2="165.4"
+              xlink:href="#linear-gradient-3"></linearGradient><radialGradient
+              id="radial-gradient"
+              cx="177.27"
+              cy="110.6"
+              r="70.18"
+              xlink:href="#linear-gradient-3"></radialGradient><radialGradient
+              id="radial-gradient-2"
+              cx="190.43"
+              cy="166.43"
+              r="63.78"
+              xlink:href="#linear-gradient-3"></radialGradient>
+          </defs><g class="cls-1"
+            ><g id="Layer_2" data-name="Layer 2"
+              ><g id="Logo"
+                ><g id="Fox"
+                  ><path
+                    class="cls-2"
+                    d="M220.5,107.45l-26.36-21,14-80.14A5.41,5.41,0,0,0,200,.75L144.87,33.33H77.67L22.53.75a5.41,5.41,0,0,0-8.08,5.59l14,80.14L2,107.45A5.4,5.4,0,0,0,2.21,116l105.86,77.79.1,0a5.53,5.53,0,0,0,1.39.71l.15,0a5.42,5.42,0,0,0,1.56.25,5.48,5.48,0,0,0,1.57-.25l.14,0a5.53,5.53,0,0,0,1.39-.71l.1,0L220.34,116a5.41,5.41,0,0,0,.16-8.59Z"
+                  ></path><path
+                    class="cls-3"
+                    d="M22.53.75a5.41,5.41,0,0,0-8.08,5.59l14,80.14L2,107.45A5.4,5.4,0,0,0,2.21,116l105.86,77.79.1,0a5.53,5.53,0,0,0,1.39.71l.15,0a5.42,5.42,0,0,0,1.56.25L77.67,33.33Z"
+                  ></path><path
+                    class="cls-4"
+                    d="M112.84,194.63l.14,0a5.53,5.53,0,0,0,1.39-.71l.1,0L220.34,116a5.41,5.41,0,0,0,.16-8.59l-26.36-21,14-80.14A5.41,5.41,0,0,0,200,.75L144.87,33.33l-33.6,161.55A5.48,5.48,0,0,0,112.84,194.63Z"
+                  ></path><path
+                    class="cls-5"
+                    d="M2,107.45A5.4,5.4,0,0,0,2.21,116l105.86,77.79.1,0a5.53,5.53,0,0,0,1.39.71l.15,0a5.42,5.42,0,0,0,1.56.25L28.41,86.48Z"
+                  ></path><path
+                    class="cls-6"
+                    d="M113,194.59a5.53,5.53,0,0,0,1.39-.71l.1,0L220.34,116a5.41,5.41,0,0,0,.16-8.59l-26.36-21-82.87,108.4a5.48,5.48,0,0,0,1.57-.25Z"
+                  ></path><polygon
+                    class="cls-7"
+                    points="111.27 194.88 147.98 31.3 144.87 33.33 111.27 194.88"
+                  ></polygon><polygon
+                    class="cls-8"
+                    points="111.27 194.88 194.14 86.48 197.6 89.23 111.27 194.88"
+                  ></polygon>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </a>
+      <h1 class="flex-shrink">OpWork - Self Hosted CloudFlare Workers</h1>
+      <div class="flex-grow text-right">
+        <a
+          class="mr-5 bg-primary hover:bg-secondary font-normal ease-blink transition-colors duration-300 text-midnight py-1 px-6 rounded-sm"
+          href="https://github.com/hisorange/opwork"
+        >
+          Get Started
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container max-w-7xl text-center mx-auto py-6">
+    <h3 class="my-4 text-4xl">Quick Start with Docker</h3>
+
+    <img src={hero} class="w-1/2 mx-auto" />
+
+    <input
+      type="text"
+      onclick="this.select()"
+      value="docker run -it -p80:3000 opwork/runtime:latest"
+      class="min-w-64 w-1/2 border-midnight border border-solid rounded-md bg-gray-700 text-white text-center text-2xl p-2"
+    />
+
+    <hr class="my-6" />
+    <p>
+      Or you can check out the demo <a
+        href="https://runtime.opwork.dev/"
+        class="text-secondary underline">here</a
+      >
+    </p>
+  </main>
+</Layout>
