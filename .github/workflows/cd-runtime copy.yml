@@ -5,9 +5,9 @@ on:
   push:
     branches:
       - master
-    # paths:
-    #   - "runtime/**"
-    #   - ".github/workflows/cd-runtime.yml"
+    paths:
+      - "runtime/**"
+      - ".github/workflows/cd-runtime.yml"
 
 jobs:
 
